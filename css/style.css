@@ -1,0 +1,145 @@
+body {
+    width: 100%;
+    height: 100%;
+    background-color: #000;
+    background-size: 100%;
+    overflow: hidden;
+    color: #ffd798;
+    font-family: Arial;
+    background-image: url('../images/bg.png');
+}
+
+#battery_rec {
+    position: absolute;
+    width: 10%;
+    height: 5%;
+    top: 20%;
+    left: 63%;
+    border: solid 2px #ffd798;
+}
+
+#battery_fill {
+    position: absolute;
+    width: 11%;
+    height: 6%;
+    top: 20%;
+    left: 63%;
+    z-index: 10;
+    background-color: #ffd798;
+    box-shadow: 0 0 5px #ffb56e, 0 0 5px #ffe5ad;
+}
+
+/*
+hour&minutes
+*/
+
+#rec_time {
+    position: absolute;
+    height: 140px;
+    width:320px;
+    top: 30%;
+    left: 50%;
+    margin-left:-160px;
+}
+
+#str_hours {
+    font-size: 550%;
+    float: left;
+}
+
+#rec_time #str_console {
+	background: url('../images/number.png');
+    font-size: 550%;
+    height: 68px;
+    width: 10px;
+    float: left;
+    background-position: 0 -680px;
+    margin-top: 10px;
+}
+
+#str_minutes {
+    font-size: 550%;
+    float: left;
+}
+
+#str_seconds {
+    font-size: 550%;
+    float: left;
+}
+#rec_time #str_console2 {
+	background: url('../images/number.png');
+    font-size: 550%;
+    height: 68px;
+    width: 10px;
+    float: left;
+    background-position: 0 -680px;
+    margin-top: 10px;
+}
+
+#str_secondes {
+    font-size: 550%;
+    float: left;
+}
+
+#str_ampm {
+	display:none;
+    font-size: 200%;
+    padding-top: 20%;
+}
+
+.number div {
+	background: url('../images/number.png');
+	background-repeat: no-repeat;
+	width: 50px;
+	height: 68px;
+	display: inline-block;
+}
+
+.number .n0 {
+	background-position: 0 0;
+}
+.number .n1 {
+	background-position: 0 -68px;
+}
+.number .n2 {
+	background-position: 0 -136px;
+}
+.number .n3 {
+	background-position: 0 -204px;
+}
+.number .n4 {
+	background-position: 0 -272px;
+}
+.number .n5 {
+	background-position: 0 -340px;
+}
+.number .n6 {
+	background-position: 0 -408px;
+}
+.number .n7 {
+	background-position: 0 -476px;
+}
+.number .n8 {
+	background-position: 0 -544px;
+}
+.number .n9 {
+	background-position: 0 -611px;
+}
+/*
+string day & month
+*/
+
+#rec_string_time {
+    position: absolute;
+    height: 30%;
+    width: 100%;
+    top: 60%;
+    text-align: center;
+}
+
+#str_day {
+    font-size: 250%;
+    width: 100%;
+    float: left;
+    text-shadow: 0 0 5px #ffb56e, 0 0 5px #ffe5ad;
+}
